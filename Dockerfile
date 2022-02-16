@@ -15,5 +15,5 @@ RUN bash /root/prepare.bash
 
 ENTRYPOINT su - tibero -c "bash /home/tibero/start.bash" && /bin/bash
 
-EXPOSE 8629-8649
+EXPOSE 9629-9649
 
